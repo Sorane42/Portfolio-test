@@ -12,7 +12,22 @@ function Timeline() {
   const timelineData = [
     {
       year: "2025",
-      date: "Mars 2025 - Aujourd'hui",
+      date: "Octobre 2025",
+      title: "Employé de mise en rayon",
+      type: "CDD",
+      details: [
+        "Gestion des stocks : réception des marchandises, mise en rayon et vérification des niveaux d’approvisionnement.",
+        "Maintien de la propreté et de l’organisation des rayons.",
+      ],
+      icon: <FaBriefcase />,
+      color: "#5D5D81",
+      entreprise : "Super U",
+      lieu : "Les Pieux",
+      bgColor : "#743c9c",
+    },
+    {
+      year: "2025",
+      date: "Mars 2025 - Septembre 2025",
       title: "Développeur web Freelance",
       type: "Freelance",
       details: [

@@ -32,7 +32,7 @@ function Home2() {
               <br />
               <br />Mes compétences principales sont axées sur
               <i>
-                <b className="home-text"> PHP, Symfony et JavaScript </b>.
+                <b className="home-text"> PHP, Symfony, JavaScript et React</b>.
               </i>
               <br />
               <br />

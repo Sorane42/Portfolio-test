@@ -10,7 +10,7 @@ function AboutCard() {
           <div style={{ fontSize: "1.4em" }}>
             <p style={{ textAlign: "initial" }}>
               Bonjour ! Je m'appelle <span className="purple">Sacha Desquesnes </span>,
-              j'ai 21 ans et j'habite sur <span className="purple"> Caen</span> dans le Calvados.
+              j'ai 22 ans et j'habite en <span className="purple"> Normandie</span>.
               <br />
               <br />
               Depuis plusieurs années, je suis passionné par le développement web, ce qui m’a permis de développer des compétences solides et une forte motivation à progresser constamment.
