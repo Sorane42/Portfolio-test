@@ -11,6 +11,22 @@ import Titre from "../Common/Titre";
 function Timeline() {
   const timelineData = [
     {
+      year: "2025 - 2026",
+      date: "Mars 2025 - Janvier 2026",
+      title: "Développeur web Freelance",
+      type: "Freelance",
+      details: [
+        "Conception et déploiement d'un portfolio en ligne.",
+        "Réalisation de solutions web sur mesure avec React.",
+        "Développement d'applications expérimentales avec Symfony et React pour explorer des architectures full-stack modernes.",
+      ],
+      icon: <FaBriefcase />,
+      color: "#5D5D81",
+      entreprise : "",
+      lieu : "Caen",
+      bgColor : "#3B3355",
+    },
+    {
       year: "2025",
       date: "Octobre 2025",
       title: "Employé de mise en rayon",
@@ -24,21 +40,6 @@ function Timeline() {
       entreprise : "Super U",
       lieu : "Les Pieux",
       bgColor : "#743c9c",
-    },
-    {
-      year: "2025",
-      date: "Mars 2025 - Septembre 2025",
-      title: "Développeur web Freelance",
-      type: "Freelance",
-      details: [
-        "Réalisation de projets web personnels ou pour divers clients.",
-        "Conception et développement de sites web et applications.",
-      ],
-      icon: <FaBriefcase />,
-      color: "#5D5D81",
-      entreprise : "",
-      lieu : "Caen",
-      bgColor : "#3B3355",
     },
     {
       year: "2024",
