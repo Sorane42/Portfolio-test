@@ -12,7 +12,7 @@ function Timeline() {
   const timelineData = [
     {
       year: "2025 - 2026",
-      date: "Mars 2025 - Janvier 2026",
+      date: "Mars 2025 - Juin 2026",
       title: "Développeur web Freelance",
       type: "Freelance",
       details: [
@@ -24,11 +24,11 @@ function Timeline() {
       color: "#5D5D81",
       entreprise : "",
       lieu : "Caen",
-      bgColor : "#3B3355",
+      bgColor : "#743c9c",
     },
     {
-      year: "2025",
-      date: "Octobre 2025",
+      year: "2025 - 2026",
+      date: "Octobre 2025 - Janvier 2026",
       title: "Employé de mise en rayon",
       type: "CDD",
       details: [
@@ -39,11 +39,11 @@ function Timeline() {
       color: "#5D5D81",
       entreprise : "Super U",
       lieu : "Les Pieux",
-      bgColor : "#743c9c",
+      bgColor : "#3B3355",
     },
     {
       year: "2024",
-      date: "Novembre - Décembre 2024",
+      date: "Novembre 2024 - Décembre 2024",
       title: "Employé polyvalent",
       type: "CDI",
       details: [
@@ -61,7 +61,7 @@ function Timeline() {
     },
     {
       year: "2024",
-      date: "Août 2024",
+      date: "Août 2024 - Octobre 2024",
       title: "Vendeur",
       type: "CDD",
       details: [
