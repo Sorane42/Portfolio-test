@@ -5,6 +5,7 @@ import {
   DiJavascript1,
   DiReact,
   DiMongodb,
+  DiGit,
   DiHtml5,
   DiCss3,
   DiBootstrap,
@@ -64,14 +65,13 @@ function Techstack() {
       { threshold: 0.5 }
     );
 
-    const currentRef = progressRef.current;
-    if (currentRef) {
-      observer.observe(currentRef);
+    if (progressRef.current) {
+      observer.observe(progressRef.current);
     }
 
     return () => {
-      if (currentRef) {
-        observer.unobserve(currentRef);
+      if (progressRef.current) {
+        observer.unobserve(progressRef.current);
       }
     };
   }, []);
