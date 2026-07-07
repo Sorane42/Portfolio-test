@@ -3,6 +3,8 @@ import { Container, Row, Col } from "react-bootstrap";
 import Typewriter from "typewriter-effect";
 import Home2 from "./Home2";
 import { FaRegArrowAltCircleDown } from "react-icons/fa";
+import '@google/model-viewer';
+import gundamModel from './gundam.glb';
 
 
 function Home() {
@@ -31,6 +33,14 @@ function Home() {
                   />
                 </strong>
               </h1>
+              {/**
+              <model-viewer 
+                src={gundamModel}  // Chemin relatif vers votre fichier GLB
+                alt="Strike Gundam 3D Model"
+                auto-rotate 
+                style={{ width: '100%', height: '500px' }}
+              ></model-viewer>
+              */}
               <br />
               <br />
               <div className="arrow-down">
