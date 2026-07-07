@@ -3,7 +3,6 @@ import { Container, Row, Col } from "react-bootstrap";
 import Typewriter from "typewriter-effect";
 import Home2 from "./Home2";
 import { FaRegArrowAltCircleDown } from "react-icons/fa";
-import '@google/model-viewer';
 
 
 function Home() {
